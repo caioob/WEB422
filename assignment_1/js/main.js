@@ -1,3 +1,12 @@
+/************************************************************************************************************************
+ *  *  WEB422 –Assignment 1 *I declare that this assignment is my own work in accordance with Seneca  Academic Policy.
+ *  *  No part of this assignment has been copied manually or electronically from any other source 
+ *  (including web sites) or distributed to other students. 
+ *  *Name:Caio Basaglia Student ID: 152593174 Date: 06/06/2019 
+ *  
+ ************************************************************************************************************************/ 
+
+
 $(function() {
     console.log("jQuery working");
     
