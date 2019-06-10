@@ -1,0 +1,85 @@
+<!--
+************************************************************************************************************************
+*  *  WEB422 –Assignment 1 *I declare that this assignment is my own work in accordance with Seneca  Academic Policy.
+*  *  No part of this assignment has been copied manually or electronically from any other source 
+*  (including web sites) or distributed to other students. 
+*  *Name:Caio Basaglia Student ID: 152593174 Date: 06/06/2019 
+*  
+************************************************************************************************************************ 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <!-- Latest compiled and minified Bootstrap 3.3.7 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <!--custom css-->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap-header-table.css">
+        <title>Welcome" to "Caio Basaglia - WEB422</title>
+    </head>
+    <body>
+        <div id="font">
+            <nav class="navbar navbar-default navbar-static-top navbar-custom">
+                <div class="container-fluid">
+                <!-- brand -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#" id="brand">Assignment 2 - Employees Details</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" >
+                    <input type="text" class="form-control" placeholder="Search for Employees" id="employee-search">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="container bootstrap-header-table">
+                    <div class="row header-row">
+                        <div>
+                            <div class="col-xs-4 header-column">First Name</div>
+                            <div class="col-xs-4 header-column">Last Name</div>
+                            <div class="col-xs-4 header-column">Position</div>
+                        </div>
+                    </div>
+                    <div class="row body-rows" id="employees-table">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="genericModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title"></h4>
+                        </div>
+                        <div class="modal-body"></div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <!-- Latest compiled and minified jQuery 3.2.1 JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+        
+        <!-- Latest compiled and minified Bootstrap 3.3.7 JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!-- custom script-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
