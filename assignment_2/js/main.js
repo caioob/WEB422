@@ -46,9 +46,9 @@ function refreshEmployeeRows(employees){
     $("#employees-table").empty();
     let template= _.template('<% _.forEach(employees, function(employee){%>' 
                                 +'<div class="row body-row" data-id="<% employee._id%>">'
-                                    +'<div class="col-xs-4 body-column"><%_.escape(employees.firstName)%></div>'
-                                    +'<div class="col-xs-4 body-column"><%_.escape(employees.lastName)%></div>'
-                                    +'<div class="col-xs-4 body-column"><%_.escape(employees.positionName)%></div>'
+                                    +'<div class="col-xs-4 body-column"><%_.escape(employee.firstName)%></div>'
+                                    +'<div class="col-xs-4 body-column"><%_.escape(employee.lastName)%></div>'
+                                    +'<div class="col-xs-4 body-column"><%_.escape(employee.positionName)%></div>'
                                 +'</div>'
                                 +'<% }); %>');
     $("#employees-table").append(template(({'employees': employees})));
